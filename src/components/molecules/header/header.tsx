@@ -3,7 +3,7 @@ import LogoBar, { ILogoBar } from "@/components/atoms/logoBar/logoBar";
 type IHeader = {
   className: string;
   primaryLogoBar: ILogoBar;
-  secondaryLogoBar: ILogoBar;
+  secondaryLogoBar?: ILogoBar;
 };
 
 const Header = ({
@@ -18,11 +18,13 @@ const Header = ({
         className={primaryLogoBar.className}
         image={primaryLogoBar.image}
       />
-      <LogoBar
-        bgClassName={secondaryLogoBar.bgClassName}
-        className={secondaryLogoBar.className}
-        image={secondaryLogoBar.image}
-      />
+      {secondaryLogoBar && (
+        <LogoBar
+          bgClassName={secondaryLogoBar.bgClassName}
+          className={secondaryLogoBar.className}
+          image={secondaryLogoBar.image}
+        />
+      )}
     </div>
   );
 };

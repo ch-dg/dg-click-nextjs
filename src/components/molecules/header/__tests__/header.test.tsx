@@ -1,56 +1,39 @@
-import { render, screen } from '@testing-library/react'
-import dgLogo from '@/assets/dgLogo.svg'
-import Header from '@/components/molecules/header/header'
+import { render, screen } from "@testing-library/react";
+import dgLogoFull from "@/assets/dgLogoFull.svg";
+import Header from "@/components/molecules/header/header";
 
-describe('Unit:Molecule header', () => {
-    const mockPrimaryLogoBar = {
-        image: {
-            src: dgLogo,
-            className: 'ml-[12%] w-auto h-auto',
-            alt: 'primary',
-        },
-        className: 'ml-[12%] w-auto h-auto',
-        bgClassName: '',
-        container: false,
-    }
-    const mockSecondaryLogoBar = {
-        image: {
-            src: dgLogo,
-            className: 'ml-[12%] w-auto h-auto',
-            alt: 'secondary',
-        },
-        className: 'ml-[12%] w-auto h-auto',
-        bgClassName: '',
-        container: false,
-    }
-    const mockComponent = (
-        <Header
-            className="mb-24 flex w-screen flex-col justify-center"
-            primaryLogoBar={mockPrimaryLogoBar}
-            secondaryLogoBar={mockSecondaryLogoBar}
-        />
-    )
+describe("Unit:Molecule header", () => {
+  const mockPrimaryLogoBar = {
+    image: {
+      src: dgLogoFull,
+      alt: "domestic and general logo",
+      className: "w-auto h-auto",
+      priority: true,
+    },
+    bgClassName: "px-6 md:px-12 bg-white",
+    className: "flex items-center justify-start py-6",
+  };
 
-    it('renders LogoBars', () => {
-        render(mockComponent)
-        const primaryImage = screen.getByRole('img', {
-            name: /primary/i,
-        })
-        const secondaryImage = screen.getByRole('img', {
-            name: /secondary/i,
-        })
+  const mockComponent = (
+    <Header
+      className="mb-24 flex w-screen flex-col justify-center"
+      primaryLogoBar={mockPrimaryLogoBar}
+    />
+  );
 
-        expect(primaryImage).toBeInTheDocument()
-        expect(primaryImage).toHaveAttribute('alt', 'primary')
-        expect(primaryImage).toHaveClass('ml-[12%] w-auto h-auto')
+  it("renders LogoBar", () => {
+    render(mockComponent);
+    const primaryImage = screen.getByRole("img", {
+      name: /domestic and general logo/i,
+    });
 
-        expect(secondaryImage).toBeInTheDocument()
-        expect(secondaryImage).toHaveAttribute('alt', 'secondary')
-        expect(secondaryImage).toHaveClass('ml-[12%] w-auto h-auto')
-    })
+    expect(primaryImage).toBeInTheDocument();
+    expect(primaryImage).toHaveAttribute("alt", "domestic and general logo");
+    expect(primaryImage).toHaveClass("w-auto h-auto");
+  });
 
-    it('checks against snapshot', () => {
-        const view = render(mockComponent)
-        expect(view).toMatchSnapshot()
-    })
-})
+  it("checks against snapshot", () => {
+    const view = render(mockComponent);
+    expect(view).toMatchSnapshot();
+  });
+});

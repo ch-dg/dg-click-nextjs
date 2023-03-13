@@ -9,45 +9,20 @@ exports[`Unit:Molecule header checks against snapshot 1`] = `
         class="mb-24 flex w-screen flex-col justify-center"
       >
         <div
-          class=""
+          class="px-6 md:px-12 bg-white"
         >
           <div
             class="container mx-auto"
           >
             <div
-              class="ml-[12%] w-auto h-auto"
+              class="flex items-center justify-start py-6"
             >
               <img
-                alt="primary"
-                class="ml-[12%] w-auto h-auto"
+                alt="domestic and general logo"
+                class="w-auto h-auto"
                 data-nimg="1"
                 decoding="async"
                 height="40"
-                loading="lazy"
-                src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-                srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-                style="color: transparent;"
-                width="40"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class=""
-        >
-          <div
-            class="container mx-auto"
-          >
-            <div
-              class="ml-[12%] w-auto h-auto"
-            >
-              <img
-                alt="secondary"
-                class="ml-[12%] w-auto h-auto"
-                data-nimg="1"
-                decoding="async"
-                height="40"
-                loading="lazy"
                 src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
                 srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
                 style="color: transparent;"
@@ -64,45 +39,20 @@ exports[`Unit:Molecule header checks against snapshot 1`] = `
       class="mb-24 flex w-screen flex-col justify-center"
     >
       <div
-        class=""
+        class="px-6 md:px-12 bg-white"
       >
         <div
           class="container mx-auto"
         >
           <div
-            class="ml-[12%] w-auto h-auto"
+            class="flex items-center justify-start py-6"
           >
             <img
-              alt="primary"
-              class="ml-[12%] w-auto h-auto"
+              alt="domestic and general logo"
+              class="w-auto h-auto"
               data-nimg="1"
               decoding="async"
               height="40"
-              loading="lazy"
-              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-              style="color: transparent;"
-              width="40"
-            />
-          </div>
-        </div>
-      </div>
-      <div
-        class=""
-      >
-        <div
-          class="container mx-auto"
-        >
-          <div
-            class="ml-[12%] w-auto h-auto"
-          >
-            <img
-              alt="secondary"
-              class="ml-[12%] w-auto h-auto"
-              data-nimg="1"
-              decoding="async"
-              height="40"
-              loading="lazy"
               src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
               srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
               style="color: transparent;"
