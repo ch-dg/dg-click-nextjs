@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Unit:Atom logoBar checks against snapshot with mandatory attr 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -108,7 +108,7 @@ Object {
 `;
 
 exports[`Unit:Atom logoBar checks against snapshot with optional attr 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
