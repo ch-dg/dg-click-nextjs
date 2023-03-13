@@ -10,6 +10,8 @@ const LayoutMain = ({ children }: ILayout): JSX.Element => {
       <Head>
         <title>DG Click Welcome</title>
       </Head>
+      {/*  */}
+
       {/* Main grid container */}
       <main>
         <div className="px-6 md:px-16 bg-red-100">
