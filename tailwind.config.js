@@ -32,6 +32,10 @@ module.exports = {
       lg: "1440px",
       // => @media (min-width: 1440px) { ... }
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#0675CD",
+      },
+    },
   },
 };
