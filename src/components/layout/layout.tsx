@@ -1,6 +1,9 @@
 import Head from "next/head";
 
 import Header from "@/components/molecules/header/header";
+import Hero from "../organisms/heroSection/hero";
+import DgIcon from "@/components/atoms/icons/dgIcon";
+
 import PreFooter from "@/components/molecules/preFooter/preFooter";
 import Footer from "@/components/molecules/footer/footer";
 import Btn from "@/components/atoms/button/button";
@@ -37,6 +40,17 @@ const LayoutMain = ({ children }: ILayout): JSX.Element => {
           }}
         />
       </header>
+
+      <Hero
+        headerIntro="We Are Domestic & General"
+        headerMain="Grow your business with a world-class home warranty solution"
+        strapLine="Established in 1912, today we empower leading global retailers and manufacturers to offer millions of customers exceptional product protection"
+        bgGradient="125deg,_#0D77DB_0%,_#0265C1_12%,_#0265C0_53%,_#0054A3_100%"
+        icon={<DgIcon icon="heroHome" size="heroLg" />}
+        ctaBtn={
+          <Btn variant="secondary" type="button" text="Schedule a call" />
+        }
+      />
 
       {/* Main grid container */}
       <main>

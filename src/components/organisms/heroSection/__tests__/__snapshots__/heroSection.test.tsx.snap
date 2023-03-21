@@ -6,7 +6,7 @@ exports[`Unit:Organism HeroSection checks against snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="bg-[linear-gradient(125deg,_#0D77DB_0%,_#0265C1_12%,_#0265C0_53%,_#0054A3_100%)] relative py-8 px-6 lg:py-16"
+        class=" relative bg-heroBg-Dg py-8 px-6 lg:py-16"
         role="heroSection"
       >
         <div
@@ -16,7 +16,7 @@ exports[`Unit:Organism HeroSection checks against snapshot 1`] = `
           We Are Domestic & General
         </div>
         <div
-          class="mt-8 text-center text-[28px] text-white md:text-[30px] lg:text-[40px]"
+          class="mx-auto mt-8 text-center text-[28px] text-white md:max-w-[512px] md:text-[30px] lg:max-w-[768px] lg:text-[40px]"
           role="heroHeaderMain"
         >
           Grow your business with a world-class home warranty solution
@@ -105,7 +105,7 @@ exports[`Unit:Organism HeroSection checks against snapshot 1`] = `
           </div>
         </div>
         <div
-          class="text-center text-white"
+          class="mx-auto text-center text-white md:max-w-[660px] lg:max-w-[768px]"
           role="heroHeaderStrapLine"
         >
           Established in 1912, today we empower leading global retailers and manufacturers to offer millions of customers exceptional product protection
@@ -126,7 +126,7 @@ exports[`Unit:Organism HeroSection checks against snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="bg-[linear-gradient(125deg,_#0D77DB_0%,_#0265C1_12%,_#0265C0_53%,_#0054A3_100%)] relative py-8 px-6 lg:py-16"
+      class=" relative bg-heroBg-Dg py-8 px-6 lg:py-16"
       role="heroSection"
     >
       <div
@@ -136,7 +136,7 @@ exports[`Unit:Organism HeroSection checks against snapshot 1`] = `
         We Are Domestic & General
       </div>
       <div
-        class="mt-8 text-center text-[28px] text-white md:text-[30px] lg:text-[40px]"
+        class="mx-auto mt-8 text-center text-[28px] text-white md:max-w-[512px] md:text-[30px] lg:max-w-[768px] lg:text-[40px]"
         role="heroHeaderMain"
       >
         Grow your business with a world-class home warranty solution
@@ -225,7 +225,7 @@ exports[`Unit:Organism HeroSection checks against snapshot 1`] = `
         </div>
       </div>
       <div
-        class="text-center text-white"
+        class="mx-auto text-center text-white md:max-w-[660px] lg:max-w-[768px]"
         role="heroHeaderStrapLine"
       >
         Established in 1912, today we empower leading global retailers and manufacturers to offer millions of customers exceptional product protection

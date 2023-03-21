@@ -9,14 +9,7 @@ interface IHero {
   bgGradient: string;
 }
 
-const Hero = ({
-  headerIntro,
-  headerMain,
-  icon,
-  strapLine,
-  ctaBtn,
-  bgGradient,
-}: IHero) => {
+const Hero = ({ headerIntro, headerMain, icon, strapLine, ctaBtn }: IHero) => {
   return (
     // <div className="bg-[radial-gradient(_#0D77DB_0%,_#0265C1_12%,_#0265C0_53%,_#0054A3_100%)]">
     <div
@@ -31,7 +24,7 @@ const Hero = ({
       </div>
       <div
         role="heroHeaderMain"
-        className="mt-8 text-center text-[28px] text-white md:text-[30px] lg:text-[40px]"
+        className="mx-auto mt-8 text-center text-[28px] text-white md:max-w-[512px] md:text-[30px] lg:max-w-[768px] lg:text-[40px]"
       >
         {headerMain}
       </div>
@@ -41,7 +34,10 @@ const Hero = ({
       >
         {icon}
       </div>
-      <div role="heroHeaderStrapLine" className="text-center text-white">
+      <div
+        role="heroHeaderStrapLine"
+        className="mx-auto text-center text-white md:max-w-[660px] lg:max-w-[768px]"
+      >
         {strapLine}
       </div>
       <div
