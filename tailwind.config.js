@@ -38,6 +38,8 @@ module.exports = {
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "heroBg-Dg":
+          "linear-gradient(125deg, #0D77DB 0%, #0265C1 12%, #0265C0 53%, #0054A3 100%)",
       },
     },
   },

@@ -21,7 +21,7 @@ const Hero = ({
     // <div className="bg-[radial-gradient(_#0D77DB_0%,_#0265C1_12%,_#0265C0_53%,_#0054A3_100%)]">
     <div
       role="heroSection"
-      className={`bg-[linear-gradient(${bgGradient})] relative py-8 px-6 lg:py-16`}
+      className=" relative bg-heroBg-Dg py-8 px-6 lg:py-16"
     >
       <div
         role="heroHeaderIntro"
