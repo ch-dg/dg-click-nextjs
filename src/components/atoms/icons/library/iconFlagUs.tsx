@@ -1,7 +1,7 @@
 const IconFlagUs = (): JSX.Element => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 25">
-      <g fill-rule="evenodd" clip-path="url(#a)" clip-rule="evenodd">
+      <g fillRule="evenodd" clipPath="url(#a)" clipRule="evenodd">
         <path
           fill="#BD3D44"
           d="M0 .5h45.6v1.847H0V.5Zm0 3.694h45.6V6.04H0V4.194Zm0 3.689h45.6v1.851H0V7.883Zm0 3.694h45.6v1.846H0v-1.846Zm0 3.693h45.6v1.847H0V15.27Zm0 3.69h45.6v1.846H0V18.96Zm0 3.693h45.6V24.5H0v-1.847Z"

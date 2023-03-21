@@ -22,7 +22,7 @@ exports[`Unit:Molecule preFooter checks against snapshot 1`] = `
               class="flex justify-center mt-8"
             >
               <button
-                class="flex items-center justify-center py-5 px-10 text-lg leading-4 rounded text-primary bg-white"
+                class="flex items-center justify-center py-5 px-10 text-lg leading-4 rounded font-medium text-primary bg-white"
                 type="button"
               >
                 Get in touch
@@ -3476,7 +3476,7 @@ exports[`Unit:Molecule preFooter checks against snapshot 1`] = `
             class="flex justify-center mt-8"
           >
             <button
-              class="flex items-center justify-center py-5 px-10 text-lg leading-4 rounded text-primary bg-white"
+              class="flex items-center justify-center py-5 px-10 text-lg leading-4 rounded font-medium text-primary bg-white"
               type="button"
             >
               Get in touch

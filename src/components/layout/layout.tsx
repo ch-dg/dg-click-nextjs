@@ -40,9 +40,9 @@ const LayoutMain = ({ children }: ILayout): JSX.Element => {
 
       {/* Main grid container */}
       <main>
-        <div className="px-6 md:px-16 bg-red-100">
+        <div className="px-6 md:px-16">
           <div className="container mx-auto bg-orange-100">
-            <div className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4">
+            <div className="grid grid-cols-4 gap-4 md:grid-cols-8 lg:grid-cols-12">
               {children}
             </div>
           </div>
@@ -55,7 +55,7 @@ const LayoutMain = ({ children }: ILayout): JSX.Element => {
           To hear about how we can support your business please leave a few
           contact details
         </p>
-        <div className="flex justify-center mt-8">
+        <div className="mt-8 flex justify-center">
           <Btn type="button" text="Get in touch" variant="secondary" />
         </div>
       </PreFooter>

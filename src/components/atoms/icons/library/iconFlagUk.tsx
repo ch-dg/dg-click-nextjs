@@ -1,7 +1,7 @@
 const IconFlagUK = (): JSX.Element => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 25">
-      <g clip-path="url(#a)">
+      <g clipPath="url(#a)">
         <path fill="#012169" d="M0 .5h32v24H0V.5Z" />
         <path
           fill="#fff"

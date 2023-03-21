@@ -33,13 +33,16 @@ const IconFlagDe = dynamic(() => import("./library/iconFlagDe"));
 const IconFlagPt = dynamic(() => import("./library/iconFlagPt"));
 const IconFlagIt = dynamic(() => import("./library/iconFlagIt"));
 
+// Hero Icons
+const IconHeroHome = dynamic(() => import("./library/iconHeroHome"));
+
 interface IIconVariation {
   [index: string]: ComponentType<{ colour?: string | undefined }>;
 }
 
 export const IconController = (
   icon: string,
-  size: number | undefined
+  size: number | string | undefined
 ): {
   IconComponent: ComponentType<{ colour?: string | undefined }>;
   containerSize: string | undefined;
@@ -63,6 +66,11 @@ export const IconController = (
     case 5:
       containerSize = "h-32 w-32";
       break;
+    case "heroLg":
+      containerSize = "h-[300px] w-[300px] lg:h-[390px] lg:w-[390px]";
+      break;
+    case "heroScroll":
+      containerSize = "h-10 w-10";
   }
 
   // Variant
@@ -87,6 +95,7 @@ export const IconController = (
     flagDe: IconFlagDe,
     flagPt: IconFlagPt,
     flagIt: IconFlagIt,
+    heroHome: IconHeroHome,
   };
 
   const IconComponent = iconVariation[icon];

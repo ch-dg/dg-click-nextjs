@@ -3,7 +3,7 @@ import { IconController } from "./iconController";
 interface IDgIcon {
   icon: string;
   colour?: string;
-  size?: number;
+  size?: number | string;
   styles?: string;
 }
 
